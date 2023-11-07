@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 20px;
+}
+.head {
+  padding: 20px;
+  background-color: #008069;
+  height: 100px;
+  color: white;
+}
+.icons {
+  font-size: 25px;
+}
+.chat {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  justify-content: center;
+  font-size: 13px;
+  padding-top: 20px;
+}
+.chat a {
+  text-decoration: none;
+  color: white;
+}
+.chat h2:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.acount {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.acount-txt p {
+  color: gray;
+  font-size: 15px;
+}
+.acount h1 {
+  font-size: 19px;
+}
+.acount1 {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+
+  margin: 10px;
+}
+.acount-1 {
+  margin-bottom: 15px;
+}
+.acount2 {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.acount3 {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.acount4 {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.acount5 {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.acount-txt a {
+  color: black;
+  text-decoration: none;
+}
+.acount6 {
+  display: flex;
+  gap: 20px;
+  font-weight: 600;
+  margin: 10px;
+}
+.acount1 h1 {
+  font-size: 19px;
+}
+.acount2 h1 {
+  font-size: 19px;
+}
+.acount2 h1 {
+  font-size: 19px;
+}
+.acount3 h1 {
+  font-size: 19px;
+}
+.acount4 h1 {
+  font-size: 19px;
+}
+.acount5 h1 {
+  font-size: 19px;
+}
+.acount6 h1 {
+  font-size: 19px;
+}
+.acount-1 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.acount-names {
+  display: flex;
+  gap: 65px;
+}
+.acount-names1 {
+  display: flex;
+  gap: 185px;
+}
+.acount-names2 {
+  display: flex;
+  gap: 185px;
+}
+.acount-names3 {
+  display: flex;
+  gap: 147px;
+}
+.acount-names4 {
+  display: flex;
+  gap: 170px;
+}
+.times {
+  text-align: center;
+  font-size: 12px;
+}
+.acount-names5 {
+  display: flex;
+  gap: 195px;
+}
+.acount-names6 {
+  display: flex;
+  gap: 195px;
+}
+.acount-names7 {
+  display: flex;
+  gap: 195px;
+}
+.acount-names2 h2 {
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(30, 209, 30);
+}
+.acount-names3 h2 {
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(30, 209, 30);
+}
+.acount-names4 h2 {
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(30, 209, 30);
+}
+.acount-names5 h2 {
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(30, 209, 30);
+}
+.acount-names6 h2 {
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(30, 209, 30);
+}
+.acount-names1 h2 {
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(30, 209, 30);
+}
+.acount-names h2 {
+  padding: 8px;
+  border-radius: 100%;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(30, 209, 30);
+}
+.acount {
+  margin-bottom: 20px;
+}
+.acount:hover {
+  background-color: rgb(227, 227, 227);
+}
+.acount1:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.acount2:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.acount3:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.acount4:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.acount5:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+.acount6:hover {
+  background-color: rgb(227, 227, 227);
+}
+
+/*-----sattus-------*/
+
+.status1 {
+  display: flex;
+  margin: 10px;
+  gap: 15px;
+}
+.status-2 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.st-txt h1 {
+  font-size: 18px;
+  margin: 20px;
+  color: rgb(146, 146, 146);
+}
+.stat2 img {
+  width: 50px;
+  border-radius: 100%;
+}
+.stat2 {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 14px;
+  gap: 10px;
+}
+.stat2:hover {
+  margin: 10;
+  background-color: rgb(212, 212, 212);
+}
+.status1:hover {
+  background-color: rgb(212, 212, 212);
+}
+.calls {
+  display: flex;
+  gap: 150px;
+}
+.cal {
+  color: #008069;
+}

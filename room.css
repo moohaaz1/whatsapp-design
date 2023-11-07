@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(./img/pattern.png) rgb(1, 26, 1) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+}
+.logo {
+  display: flex;
+  color: white;
+  gap: 10px;
+}
+.logo img {
+  width: 50px;
+  border-radius: 100%;
+}
+nav {
+  padding: 20px;
+  background-color: #008069;
+  height: 35px;
+  color: white;
+}
+.logo1 {
+  display: flex;
+}
+.icons {
+  margin-left: 80px;
+  gap: 7px;
+  font-size: 20px;
+  display: flex;
+}
+.logo a {
+  color: white;
+}
+.mesagebox {
+  position: relative;
+  margin: 20px;
+}
+.mesage {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  font-size: 16px;
+}
+.mesage::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  border: 10px solid red transparent;
+}
